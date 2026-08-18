@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Titus Chabangu | Volkswagen Brits</title>
+<style>
+:root {
+  --vw:#001e50;
+  --vw2:#0b5ea8;
+  --gold:#c7a34b;
+  --ink:#111827;
+  --muted:#667085;
+  --cream:#fbfaf7;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  padding:34px 16px;
+  background:linear-gradient(135deg,#eef3f8,#f8f9fb 60%,#f4efe5);
+  font-family:Arial,Helvetica,sans-serif;
+  color:var(--ink);
+}
+.card{
+  width:min(100%,860px);
+  margin:auto;
+  background:#fff;
+  border:1px solid #dbe3ec;
+  border-radius:26px;
+  overflow:hidden;
+  box-shadow:0 24px 70px rgba(0,30,80,.14);
+}
+.hero{
+  display:grid;
+  grid-template-columns:42% 58%;
+  min-height:470px;
+}
+.photo-wrap{
+  background:linear-gradient(180deg,#f6f9fc,#eef3f8);
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  padding:28px 20px 0;
+}
+.photo{
+  width:100%;
+  max-width:340px;
+  height:auto;
+  display:block;
+}
+.details{
+  padding:42px 42px 34px;
+  position:relative;
+}
+.brandrow{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  align-items:center;
+}
+.vwlogo{width:135px;height:auto}
+.super{width:150px;height:auto}
+h1{
+  font-family:Georgia,'Times New Roman',serif;
+  font-size:42px;
+  font-weight:500;
+  line-height:1.08;
+  margin:28px 0 6px;
+  color:var(--vw);
+}
+.role{
+  font-size:13px;
+  letter-spacing:2.2px;
+  text-transform:uppercase;
+  color:#7b652c;
+  font-weight:700;
+}
+.rule{
+  height:1px;
+  background:linear-gradient(90deg,var(--gold),#e8dcc0,transparent);
+  margin:22px 0 18px;
+}
+.contact{
+  font-size:15px;
+  line-height:1.9;
+}
+.contact a{color:var(--ink);text-decoration:none}
+.actions{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:11px;
+  margin-top:26px;
+}
+.btn{
+  display:block;
+  padding:13px 14px;
+  border-radius:999px;
+  text-decoration:none;
+  text-align:center;
+  font-size:11px;
+  letter-spacing:.8px;
+  font-weight:700;
+}
+.primary{background:var(--vw);color:white;border:1px solid var(--vw)}
+.secondary{background:white;color:var(--vw);border:1px solid #aab8c8}
+.gold{background:var(--gold);color:#111;border:1px solid var(--gold)}
+.tag{
+  padding:18px 28px 24px;
+  border-top:1px solid #e5ebf1;
+  text-align:center;
+  font-family:Georgia,'Times New Roman',serif;
+  font-style:italic;
+  color:#4d5a6a;
+  background:var(--cream);
+}
+@media(max-width:720px){
+  .hero{grid-template-columns:1fr}
+  .photo-wrap{padding-top:22px}
+  .details{padding:30px 24px}
+  .brandrow{justify-content:center;flex-wrap:wrap}
+  h1{font-size:34px;text-align:center}
+  .role{text-align:center}
+  .actions{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<main class="card">
+  <section class="hero">
+    <div class="photo-wrap">
+      <img class="photo" src="assets/titus-chabangu.jpg" alt="Titus Chabangu">
+    </div>
+    <div class="details">
+      <div class="brandrow">
+        <img class="vwlogo" src="assets/volkswagen-brits.jpeg" alt="Volkswagen Brits">
+        <img class="super" src="assets/supergroup.png" alt="Supergroup Dealerships">
+      </div>
+
+      <h1>Titus Chabangu</h1>
+      <div class="role">New Vehicle Sales Executive</div>
+      <div class="rule"></div>
+
+      <div class="contact">
+        <div><a href="tel:+27663761168">+27 66 376 1168</a></div>
+        <div><a href="mailto:titus.chabangu@supergrp.com">titus.chabangu@supergrp.com</a></div>
+        <div><a href="https://www.google.com/maps?q=Corner+Maple+Ave+and+Coopers+Lane,+Brits+0250" target="_blank">Corner Maple Ave & Coopers Lane, Brits 0250</a></div>
+      </div>
+
+      <div class="actions">
+        <a class="btn gold" href="Titus-Chabangu.vcf" download>SAVE CONTACT</a>
+        <a class="btn primary" href="https://wa.me/27663761168" target="_blank">WHATSAPP</a>
+        <a class="btn secondary" href="https://torque.seritisolutions.co.za/app/financeapplication?CompanyCode=SGHFA&UniqueCode=0FE683BE-16E3-4F58-8EE0-B6DF7208EA32" target="_blank">APPLY FOR FINANCE</a>
+        <a class="btn secondary" href="https://www.vwbrits.co.za/specials" target="_blank">VIEW SPECIALS</a>
+        <a class="btn secondary" href="https://www.vwbrits.co.za" target="_blank">VW BRITS WEBSITE</a>
+        <a class="btn secondary" href="https://www.google.com/maps?q=Corner+Maple+Ave+and+Coopers+Lane,+Brits+0250" target="_blank">GET DIRECTIONS</a>
+      </div>
+    </div>
+  </section>
+  <div class="tag">Your Journey Begins with a Volkswagen</div>
+</main>
+</body>
+</html>
